@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  body{
+    background-color: #04102e;
+
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+}
