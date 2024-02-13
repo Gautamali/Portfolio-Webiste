@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "predeploy": "",
+    "deploy": "gh-pages -d public",
     "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
   },
   "author": "",
